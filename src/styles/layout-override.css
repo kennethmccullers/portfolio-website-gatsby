@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	color: white;
+
+}
+html {
+	height: 100%;
+}
+
+body  {
+	height: 100%;
+}
+
+h1 {
+	font-size: 1.5rem;
+	line-height: 0.5rem;
+}
+
+p, div {
+	font-size: 16px;
+}
+
+.main-content {
+	justify-content: center;
+}
+
+.button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 15px 32px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 25px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 15px 32px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 25px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-family: 'Open Sans', sans-serif;
+	width: 65%;
+	margin-right:-0.15rem;
+}
+
+.button1:hover {
+	background-color: black;
+	color: white;
+}
+
+.button2:hover {
+	background-color: black;
+	color: white;
+}
+
+.fa-deviantart:hover {
+	color: #05CC46 !important;
+}
+
+.fa-twitter:hover {
+	color: #1DA1F2 !important;
+}
+
+.fa-facebook:hover {
+	color: #3B5998 !important;
+}
+
+.fa-instagram:hover {
+	color: #262626 !important;
+}
+
+.fa-behance:hover {
+	color: #1769ff !important;
+}
+
+input {
+	width: 70%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+	width: 70%;
+	height: 250px;
+	padding: 12px 20px;
+    margin: 8px 0;
+	box-sizing: border-box;
+	resize: none;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.lead-text {
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}

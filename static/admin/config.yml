@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: kennethmccullers/portfolio-website-gatsby
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: project
+    label: Project
+    folder: projects
+    create: true
+    fields:
+      - { name: projectImage, label: Image, widget: image }
+      - {name: title, label: Title }
+      - { name: description, label: Description, widget: markdown }
